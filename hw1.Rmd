@@ -1,0 +1,48 @@
+#Homework #1
+##Connor Carpenter;ConnorCarpenterISU
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This homework is more or less a tutorial that helps you set up the command line tools used in this course, and familiarizes you with the format of the submission requirement. As a pre-requisite of this homework, Install R and then RStudio (the free version of Rstudio Desktop). 
+This homework is **due on Jan 22** before class.
+
+You can download a copy of this `Rmd` file on the [course website](https://xdaiisu.github.io/ds202/hwlabs/) and use as template for your homework. 
+
+
+1. Create a folder named `ds202_hw1`, and create an RMarkDown file `hw1.Rmd` under this folder to include your solutions. The file and folder names are *case-sensitive*, which means `hw1.Rmd` and `HW1.rmd` are different. *It is crucial to follow the exact folder structure and file names*, so that your homework can be reproduced and graded by an automated script. 
+1. Write your name and Github username in the YAML of your homework `Rmd` file.
+2. Write a paragraph (<100 words) describing a job that you think is related to data science. Write your paragraph in R Markdown in a nice format to read. Include at least 
+    a. a link 
+    b. an image
+    c. an italized and a bolded word.
+    
+    One job that I think is related to data science involves **sports**. For example, if you have *extensive* data on soccer games, you could use it to better predict outcomes of games or perhaps even assist in the choosing of strategies in the game for the highest chance of success. [fivethirtyeight Predictions](https://projects.fivethirtyeight.com/soccer-predictions/)
+3. To make sure your R and Rstudio installation is correct, find the version of R by entering `version` into the R console. Put this command into a R code trunk in your `Rmd` file to automatically include the R version in your report.
+```{r}
+version
+```
+
+4. Install git. 
+    - If you are on Windows operating system: 
+        a. Install [Git for Windows](https://gitforwindows.org/). In particular, we will need to use the Git Bash (not the Git GUI). 
+        b. After installation, set up Rstudio to use Git bash as the shell for the Terminal: Open RStudio, click Tools--Global Options--Terminal; under **Shells**, select Git Bash; click OK. 
+        c. In the main menu of RStudio: click Tools--Terminal--New Terminal. If you have a `$` before your prompt, then you should not need to do anything.
+    - If you are on Linux or macOS, Git has probably been correctly configured by default, so nothing needs to be installed. Just click the Terminal tab (above the R Console).
+5. What is the version of your Git? To find out, go to the Terminal tab in RStudio (right to the Console tab), and type in the following command. If it works, this shows that the setup of your terminal and Git is correct. Then explore the bash command line and Git.
+
+    ```
+    git --version
+    ```
+    
+6. Configure Git by modifying and entering the following commands into the terminal
+
+    ```
+    git config user.name "your first and last name"
+    git config user.email "yourEmail"
+    ```
+
+7. Register a [GitHub](https://www.github.com) account. What is your username?
+
+Now Knit the finished Homework 1 one last time, and you are done! The actual submission (push to a GitHub repository) will take place in Lab 1.
