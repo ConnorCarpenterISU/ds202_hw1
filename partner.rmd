@@ -1,0 +1,17 @@
+---
+title: "Partner File"
+author: "Aaron Jencks"
+date: "1/27/2020"
+output: html_document
+---
+
+### Github
+[iggy12345](https://github.com/iggy12345)
+
+
+### Owner's most recent commit
+Connor committed the his hw1 files, the commit number is: 356b0f5d60e50e8e543bfcac5281075cecb8b86b
+
+
+### Tips or difficulty
+I found github really hard to use a few years ago when I started using it for the first time, but nowadays, my tip for creating it easier, is to harness the power of the branches/local branches for testing code and creating throwaway code easily
