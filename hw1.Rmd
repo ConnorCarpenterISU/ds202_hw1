@@ -18,7 +18,9 @@ You can download a copy of this `Rmd` file on the [course website](https://xdaii
     b. an image
     c. an italized and a bolded word.
     
-    One job that I think is related to data science involves **sports**. For example, if you have *extensive* data on soccer games, you could use it to better predict outcomes of games or perhaps even assist in the choosing of strategies in the game for the highest chance of success. [fivethirtyeight Predictions](https://projects.fivethirtyeight.com/soccer-predictions/)
+    One job that I think is related to **data science** involves *sports*. For example, if you have *extensive* data on soccer games, you could use it to better predict outcomes of games or perhaps even assist in the choosing of strategies in the game for the highest chance of success. [fivethirtyeight Predictions](https://projects.fivethirtyeight.com/soccer-predictions/)
+    
+    ![Manchester United's Badge](C:\Users\User\OneDrive\Desktop\Iowa State\Spring 2020\ds202_hw1\ManUBadge.jpg)
 3. To make sure your R and Rstudio installation is correct, find the version of R by entering `version` into the R console. Put this command into a R code trunk in your `Rmd` file to automatically include the R version in your report.
 ```{r}
 version
@@ -44,5 +46,7 @@ version
     ```
 
 7. Register a [GitHub](https://www.github.com) account. What is your username?
+
+ConnorCarpenterISU
 
 Now Knit the finished Homework 1 one last time, and you are done! The actual submission (push to a GitHub repository) will take place in Lab 1.
